@@ -417,7 +417,7 @@ fun ConveyorDisplay(
     var showHighTempDialog by remember { mutableStateOf(false) }
     var emergencyStopTriggered by remember { mutableStateOf(false) }
 
-    // ... [ same dynamic logic as before ] ...
+
     LaunchedEffect(isDynamic, emergencyStopTriggered, info.status, tempSpiked) {
         if (isDynamic && !emergencyStopTriggered && info.status == "ON") {
             while (true) {
