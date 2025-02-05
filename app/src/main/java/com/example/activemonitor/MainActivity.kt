@@ -474,8 +474,8 @@ fun ConveyorDisplay(
             ) {
                 delay(200)
                 val updated = localMachine.copy(
-                    speedOrFlow  = (localMachine.speedOrFlow - 50).coerceAtLeast(0),
-                    temperature  = (localMachine.temperature - 2).coerceAtLeast(0),
+                    speedOrFlow  = (localMachine.speedOrFlow - 70).coerceAtLeast(0),
+                    temperature  = (localMachine.temperature - 10).coerceAtLeast(0),
                     loadCapacity = localMachine.loadCapacity?.let { cap -> (cap - 5).coerceAtLeast(0) },
                     beltTension  = localMachine.beltTension?.let { tens -> (tens - 20).coerceAtLeast(0) },
                     vibration    = localMachine.vibration?.let { vib -> (vib - 0.5).coerceAtLeast(0.0) }
