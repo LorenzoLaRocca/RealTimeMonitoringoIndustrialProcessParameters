@@ -1,2 +1,4 @@
-Bachelor Thesis, active monitoring prototype for industrial machine
-Developed an Android prototype application in Kotlin that scans QR codes to identify industrial machines and provides real-time monitoring of key metrics (temperature, speed, pressure, etc.) 
+Bachelor's Thesis: Pioneering Active Monitoring for Industrial Operations
+
+My Bachelor's thesis involved developing an innovative Android prototype in Kotlin for real-time industrial machine monitoring. The application efficiently scans QR codes to identify machines, providing instant access to vital operational data such as temperature, speed, and pressure, ultimately enhancing proactive maintenance and efficiency.
+
